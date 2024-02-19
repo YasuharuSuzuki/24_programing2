@@ -1,0 +1,24 @@
+# 環境構築 mamba env create --name okikoku_py11 --file okikoku_py11.yaml
+# 更新    mamba env update --name okikoku_py11 --file okikoku_py11.yaml
+# 削除    mamba env remove --name okikoku_py11
+name: okikoku_py11
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11 # Python3.11 リリース：2022年10月、2027年10月までセキュリティサポート予定。高速化が特徴。
+  - pandas # データ分析用ライブラリ
+  - matplotlib # データ分析用可視化ライブラリ
+  - scikit-learn # 機械学習ライブラリ
+  - seaborn # データ可視化ライブラリ。matplotlibと比較して、特定用途に特化してデザイン性を向上した関数、クラスがいくつか存在する
+  - pillow # 画像ライブラリ
+  - jupyter # jupyter-notebook (割とまだ良くつこてる)
+  - xlrd # Excel読み込み
+  - openpyxl # Excel読み込み
+  - selenium # スクレイピングツール
+  - webdriver-manager # スクレイピングツール
+  - pip
+  - pip:
+    - japanize-matplotlib # データ分析用可視化ライブラリの日本語化ツール
+    - neologdn # 日本語正規化ライブラリ
