@@ -6,7 +6,7 @@
 # 環境構築 mamba env create --name okikoku_py12 --file okikoku_py12.yaml
 # 更新    mamba env update --name okikoku_py12 --file okikoku_py12.yaml
 # 削除    mamba env remove --name okikoku_py12
-name: kadai_scraping
+name: okikoku_py12
 
 channels:
   - conda-forge
