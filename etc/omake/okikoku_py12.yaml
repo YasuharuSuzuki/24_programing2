@@ -1,11 +1,6 @@
-#
-# 2024/02/04現在、neologdnが動作しないことがわかっています。 issue → https://github.com/ikegami-yukino/neologdn/issues/25
-# インストールするときは人柱になるつもりで実施してください（yasubei）
-#
-
-# 環境構築 mamba env create --name okikoku_py12 --file okikoku_py12.yaml
-# 更新    mamba env update --name okikoku_py12 --file okikoku_py12.yaml
-# 削除    mamba env remove --name okikoku_py12
+# 環境構築 conda env create --name okikoku_py12 --file okikoku_py12.yaml
+# 更新    conda env update --name okikoku_py12 --file okikoku_py12.yaml
+# 削除    conda env remove --name okikoku_py12
 name: okikoku_py12
 
 channels:
