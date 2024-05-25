@@ -1,6 +1,6 @@
-# 環境構築 mamba env create --name okikoku_py11 --file okikoku_py11.yaml
-# 更新    mamba env update --name okikoku_py11 --file okikoku_py11.yaml
-# 削除    mamba env remove --name okikoku_py11
+# 環境構築 conda env create --name okikoku_py11 --file okikoku_py11.yaml
+# 更新    conda env update --name okikoku_py11 --file okikoku_py11.yaml
+# 削除    conda env remove --name okikoku_py11
 name: okikoku_py11
 
 channels:
