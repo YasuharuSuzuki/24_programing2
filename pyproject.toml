@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "24_programing2"
+version = "1.11.0"
+description = "24_programing2"
+authors = ["Yasuharu Suzuki"]
+
+[tool.poetry.dependencies]
+
