@@ -5,4 +5,16 @@ description = "24_programing2"
 authors = ["Yasuharu Suzuki"]
 
 [tool.poetry.dependencies]
+python = ">=3.11"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+scikit-learn = "^1.5.0"
+seaborn = "^0.13.2"
+pillow = "^10.3.0"
+jupyter = "^1.0.0"
+xlrd = "^2.0.1"
+openpyxl = "^3.1.4"
+selenium = "^4.21.0"
+japanize-matplotlib = "^1.1.3"
+neologdn = "^0.5.3"
 
