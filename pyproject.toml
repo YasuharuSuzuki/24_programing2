@@ -3,6 +3,7 @@ name = "24_programing2"
 version = "1.11.0"
 description = "24_programing2"
 authors = ["Yasuharu Suzuki"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11"
