@@ -16,3 +16,10 @@ __pycache__/
 
 # Mac OS-specific storage files
 .DS_Store
+
+# PyCharm 
+.idea/
+
+# Poetry / venv
+.venv/
+poetry.lock
